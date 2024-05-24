@@ -1,3 +1,4 @@
+''' works with logging module '''
 import logging
 logging.basicConfig(filemode= "mylogs.log", level= logging.DEBUG)
 logger = logging.getLogger()
